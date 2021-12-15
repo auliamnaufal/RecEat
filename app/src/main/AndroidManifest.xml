@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecEat">
         <activity
-            android:name=".ui.home.DetailRecipe"
+            android:name=".ui.DetailRecipe"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

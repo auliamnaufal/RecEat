@@ -1,4 +1,4 @@
-package com.auliamnaufal.receat.ui.home
+package com.auliamnaufal.receat.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,14 +10,21 @@ class DetailRecipe : AppCompatActivity() {
     private lateinit var binding: ActivityDetailRecipeBinding
 
     companion object {
-        const val TITLE_RECIPE_DETAIL = "title"
-        const val PHOTO_RECIPE_DETAIL = "photo"
-        const val TIME_COOKING_DETAIL = "time"
-        const val RATING_RECIPE_DETAIL = "rate"
+        const val DATA_RECIPE_DETAIL = ""
+        
+        const val TITLE_RECIPE_DETAIL = ""
+        const val PHOTO_RECIPE_DETAIL = ""
+        const val TIME_COOKING_DETAIL = ""
+        const val RATING_RECIPE_DETAIL = ""
+        const val LEVEL_RECIPE_DETAIL = ""
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_recipe)
+        binding = ActivityDetailRecipeBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        
+        val dataDetailRecipe = intent.getParcelableExtra<>()
     }
+    // TODO: 15/12/21 (Menunggu File Object dan File Data untuk bisa diisi...) 
 }
