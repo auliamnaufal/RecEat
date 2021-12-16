@@ -24,7 +24,7 @@ class DetailRecipe : AppCompatActivity() {
         binding = ActivityDetailRecipeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         
-        val dataDetailRecipe = intent.getParcelableExtra<>()
+//        val dataDetailRecipe = intent.getParcelableExtra<>()
     }
     // TODO: 15/12/21 (Menunggu File Object dan File Data untuk bisa diisi...) 
 }
