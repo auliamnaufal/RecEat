@@ -57,6 +57,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_marginTop="12dp"
                 android:clickable="true"
+                android:backgroundTint="#f8f8f8"
                 android:focusable="true"
                 app:cardCornerRadius="8dp"
                 android:background="@drawable/bg_white_trans"
@@ -66,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Search a Menu"
-                    android:fontFamily="@font/poppins_regular"
+                    android:fontFamily="@font/poppins_light"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="12dp" />
 
@@ -118,7 +119,7 @@
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="400dp"
-                        app:cardCornerRadius="20dp"
+                        app:cardCornerRadius="15dp"
                         android:focusable="true"
                         android:layout_marginStart="24dp">
 
